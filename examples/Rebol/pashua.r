@@ -2,6 +2,8 @@ REBOL [
 ]
 
 ;--generic function for Pashua running
+;--include this function in your code
+
 callPashua: function [
 	commands 	[block!]
 	return: 	[string!]
@@ -17,4 +19,4 @@ callPashua: function [
 	rm configFile							;--remove tmp file
 	returnStr								;--return values as a string 
 ]
-;--include this function in your code
+
